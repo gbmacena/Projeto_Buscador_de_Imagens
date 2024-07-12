@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buscador de imagens</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>App de pesquisa de imagens</h1>
-    <form action="">
-        <input type="text" id="search-input" placeholder="Procurar por imagens">
-        <button id="search-button">Pesquisar</button>    
-    </form>
-    <div class="search-results">
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pesquisa de imagens</h1>
+    </header>
+    <main>
+      <form action="">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Procurar por imagens"
+        />
+        <button id="search-button">Pesquisar</button>
+      </form>
+      <div class="search-results">
         <div class="search-result">
-            <img src="https://images.unsplash.com/photo-1641198577796-03d0573d383f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-            <a href="" target="_blank">Casa na Neve</a>
+          <img
+            src="https://images.unsplash.com/photo-1641198577796-03d0573d383f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <a href="" target="_blank">Casa na Neve</a>
         </div>
         <div class="search-result">
-            <img src="https://images.unsplash.com/photo-1468906824284-242b500c38b4?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-            <a href="" target="_blank">Lua</a>
+          <img
+            src="https://images.unsplash.com/photo-1468906824284-242b500c38b4?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <a href="" target="_blank">Lua</a>
         </div>
         <div class="search-result">
-            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-            <a href="" target="_blank">Pizza</a>
+          <img
+            src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <a href="" target="_blank">Pizza</a>
         </div>
-    </div>
-    <button id="show-more-button">
-        Mostrar mais
-    </button>
+      </div>
+    </main>
+    <button id="show-more-button">Mostrar mais</button>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
